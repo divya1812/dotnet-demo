@@ -6,9 +6,6 @@
 trigger:
 - master
 
-job : 
-- windows
-
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
